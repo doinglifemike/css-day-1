@@ -1,0 +1,46 @@
+h1 {
+    color: black;
+    background-color: yellow;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 300;
+    color: grey;
+}
+
+h2 {
+    font: 100;
+    color: red;
+    background-color: black;
+}
+
+#nouns {
+    font-family: Arial, Helvetica, sans-serif;
+    border: dotted;
+    width: 50%;
+}
+
+#nouns td,
+#nouns th {
+    border: 10px solid #ddd;
+    padding: 3px;
+}
+
+#nouns tr:nth-child(even) {
+    background-color: grey;
+}
+
+#nouns tr:hover {
+    background-color: lightblue;
+}
+
+#nouns th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: middle;
+    background-color: green;
+    color: white;
+}
+
